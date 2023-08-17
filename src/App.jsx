@@ -5,7 +5,7 @@ import Landing from './components/Landing'
 
 export const AuthContext = createContext()
 
-function App() {
+export default function App() {
   const [meteoriteData, setMeteoriteData] = useState([])
 
   return (
@@ -16,5 +16,3 @@ function App() {
     </AuthContext.Provider>
   )
 }
-
-export default App
